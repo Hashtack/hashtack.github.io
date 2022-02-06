@@ -1,4 +1,4 @@
-// deneb_blog css
+// digitalofficy_blog css
 .blog_v1{
 	position: relative;
 	padding-bottom: 120px;
@@ -24,7 +24,7 @@
 		&:hover{
 			box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15);
 		}
-		.deneb_info{
+		.digitalofficy_info{
 			padding: 25px 30px 22px;
 			.date{
 				color: $theme_color;
@@ -50,7 +50,7 @@
 		}
 	}
 }
-.deneb_blog{
+.digitalofficy_blog{
 	.section_title{
 		h2{
 			position: relative;
@@ -71,12 +71,12 @@
 		}
 		.grid_item{
 			margin-bottom: 60px;
-			.deneb_img{
+			.digitalofficy_img{
 				img{
 					border-radius: 8px;
 				}
 			}
-			.deneb_info{
+			.digitalofficy_info{
 				padding-top: 30px;
 				.post_meta{
 					display: flex;
@@ -128,8 +128,8 @@
 		}
 	}
 }
-// deneb_single_blog
-.deneb_single_blog{
+// digitalofficy_single_blog
+.digitalofficy_single_blog{
 	.single_blog_wrapper{
 		@media #{$xs}{
 			margin-bottom: 40px;
@@ -173,7 +173,7 @@
 			p{
 				margin-bottom: 10px;
 			}
-			.deneb_blockquote{
+			.digitalofficy_blockquote{
 				display: flex;
 				flex-wrap: nowrap;
     			align-items: center;
@@ -240,14 +240,14 @@
 			}
 			padding-bottom: 40px;
 			.grid_item{
-				.deneb_img{
+				.digitalofficy_img{
 					img{
 						@media #{$xs}{
 							width: 100%;
 						}
 					}
 				}
-				.deneb_info{
+				.digitalofficy_info{
 					padding: 25px 24px 22px;
 					h3{
 						font-size: 15px;
@@ -321,7 +321,7 @@
 					}
 				}
 				.button_box{
-					.deneb_btn{
+					.digitalofficy_btn{
 						min-width: 170px;
 					}
 				}

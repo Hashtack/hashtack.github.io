@@ -1,4 +1,4 @@
-// Deneb_project css
+// digitalofficy_project css
 .project_v1{
 	.project_button{
 		margin-bottom: 45px;
@@ -63,7 +63,7 @@
 		margin-bottom: 10px;
 		&:hover{
 			box-shadow: 4px 6.928px 15px 0px rgba(0, 0, 0, 0.15);
-			.deneb_info{
+			.digitalofficy_info{
 				h4{
 					a{
 						color: $theme_color;
@@ -71,7 +71,7 @@
 				}
 			}
 		}
-		.deneb_info{
+		.digitalofficy_info{
 			padding: 30px;
 			h4{
 				font-weight: 600;
@@ -122,7 +122,7 @@
 			@include transition(.5s);
 			&:hover{
 				box-shadow: 4px 6.928px 15px 0px rgba(0, 0, 0, 0.15);
-				.deneb_info{
+				.digitalofficy_info{
 					h4{
 						a{
 							color: $theme_color;
@@ -130,7 +130,7 @@
 					}
 				}
 			}
-			.deneb_info{
+			.digitalofficy_info{
 				padding: 30px;
 				h4{
 					font-weight: 600;
@@ -142,7 +142,7 @@
 		}
 	}
 }
-.deneb_project{
+.digitalofficy_project{
 	.section_title{
 		h2{
 			position: relative;

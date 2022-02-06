@@ -1,7 +1,7 @@
-// Start deneb_about
-.deneb_about{
+// Start digitalofficy_about
+.digitalofficy_about{
 	overflow: hidden;
-	.deneb_img_box{
+	.digitalofficy_img_box{
 		@media #{$md}{
 			margin-bottom: 60px;
 		}
@@ -9,7 +9,7 @@
 			margin-bottom: 60px;
 		}
 	}
-	.deneb_content_box{
+	.digitalofficy_content_box{
 		margin-left: 20px;
 		h2{
 			margin-bottom: 40px;
@@ -20,14 +20,14 @@
 		p{
 			padding-bottom: 20px;
 		}
-		.deneb_btn{
+		.digitalofficy_btn{
 			margin-top: 20px;
 			min-width: 155px;
 		}
 	}
 }
-.deneb_about{
-	.deneb_content_box{
+.digitalofficy_about{
+	.digitalofficy_content_box{
 		h2{
 			position: relative;
 			&:after{
@@ -60,7 +60,7 @@
 		height: 100%;
 		z-index: -1;
 	}
-	.deneb_img_box{
+	.digitalofficy_img_box{
 		max-width: 470px;
 		img{
 			position: relative;
@@ -103,8 +103,8 @@
 		}
 	}
 }
-// deneb_skill
-.deneb_skill{
+// digitalofficy_skill
+.digitalofficy_skill{
 	overflow: hidden;
 	padding-bottom: 120px;
 	.section_title{
@@ -163,7 +163,7 @@
 		}
 	}
 }
-.deneb_skill{
+.digitalofficy_skill{
 	.section_title{
 		h2{
 			position: relative;
@@ -181,7 +181,7 @@
 		}
 	}
 }
-.deneb_experience{
+.digitalofficy_experience{
 	.section_title{
 		h2{
 			position: relative;
@@ -191,8 +191,8 @@
 		}
 	}
 }
-// deneb_experience
-.deneb_experience{
+// digitalofficy_experience
+.digitalofficy_experience{
 	overflow: hidden;
 	padding-bottom: 120px;
 	.single_experience{
@@ -206,7 +206,7 @@
 			}
 		}
 		&:nth-child(even){
-			.deneb_info_box{
+			.digitalofficy_info_box{
 				text-align: right;
 				@media #{$xs}{
 					text-align: center;
@@ -263,7 +263,7 @@
     			font-weight: 600;
     		}
 		}
-		.deneb_text_box{
+		.digitalofficy_text_box{
 			@media #{$xs}{
 				margin-bottom: 40px;
 			}
@@ -292,7 +292,7 @@
 			    background: url(../images/pointer.png) no-repeat;
 			}
 		}
-		.deneb_info_box{
+		.digitalofficy_info_box{
 			@media #{$xs}{
 				text-align: center;
 				margin-bottom: 40px;

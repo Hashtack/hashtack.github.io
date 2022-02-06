@@ -5,8 +5,8 @@ pagination:
   enabled: true
 ---
 
-<!-- Start deneb_breadcrumb section -->
-<section class="deneb_breadcrumb bg_image" style="background-image: url({% if page.page_header_image %} {{page.page_header_image}} {% else %} {{site.hero_image}} {% endif %});">
+<!-- Start digitalofficy_breadcrumb section -->
+<section class="digitalofficy_breadcrumb bg_image" style="background-image: url({% if page.page_header_image %} {{page.page_header_image}} {% else %} {{site.hero_image}} {% endif %});">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
@@ -21,9 +21,9 @@ pagination:
 		</div>
 	</div>
 </section>
-<!-- End deneb_breadcrumb section -->
+<!-- End digitalofficy_breadcrumb section -->
 
-<!-- Start deneb_blog section -->
+<!-- Start digitalofficy_blog section -->
 <section class="blog_wrapper blog_v2 section-padding-2">
   <div class="container">
     <div class="row">
@@ -33,10 +33,10 @@ pagination:
 			{% for post in page.posts %}
              <div class="col-md-6">
              	<div class="grid_item">
-				<div class="deneb_img">
+				<div class="digitalofficy_img">
 					<a href="{{post.url}}"><img src="{{post.post_image}}" class="img-fluid" alt="{{post.title}}"/></a>
 				</div>
-				<div class="deneb_info">
+				<div class="digitalofficy_info">
 					<div class="post_meta">
 						<ul>
 							<li><i class="fas fa-clock"></i>{{post.date | date_to_long_string }}</li>
@@ -64,4 +64,4 @@ pagination:
     </div>
   </div>
 </section>
-<!-- Start deneb_blog section -->
+<!-- Start digitalofficy_blog section -->

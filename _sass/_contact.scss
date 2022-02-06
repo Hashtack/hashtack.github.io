@@ -1,5 +1,5 @@
-// Deneb Contact css
-.deneb_contact{
+// digitalofficy_contact css
+.digitalofficy_contact{
 	position: relative;
 	.section_title{
 		@media #{$md}{
@@ -7,7 +7,7 @@
 			margin-bottom: 60px;
 		}
 	}
-	.deneb_img_box{
+	.digitalofficy_img_box{
 		@media #{$md}{
 			margin-bottom: 60px;
 		}
@@ -32,7 +32,7 @@
 			}
 		}
 		.button_box{
-			.deneb_btn{
+			.digitalofficy_btn{
 				min-width: 170px;
 			}
 		}
@@ -98,8 +98,8 @@
 	}
 }
 
-// deneb_map
-.deneb_map{
+// digitalofficy_map
+.digitalofficy_map{
 	padding-bottom: 170px;
 	.map_box{
 		iframe{

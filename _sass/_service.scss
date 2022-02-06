@@ -1,5 +1,5 @@
-// deneb_service
-.deneb_service{
+// digitalofficy_service
+.digitalofficy_service{
 	position: relative;
 	.grid_item{
 		max-width: 370px;
@@ -92,7 +92,7 @@
 			}
 		}
 		.tab-content{
-			.deneb_content_box{
+			.digitalofficy_content_box{
 				@media #{$md}{
 					margin-bottom: 60px;
 				}
@@ -104,7 +104,7 @@
 					margin-bottom: 20px;
 				}
 			}
-			.deneb_img_box{
+			.digitalofficy_img_box{
 				position: relative;
 				z-index: 1;
 				img{
@@ -139,7 +139,7 @@
 	}
 }
 .service_wrapper{
-	.deneb_content_box{
+	.digitalofficy_content_box{
 		h2{
 			position: relative;
 			&:after{
@@ -166,17 +166,17 @@
 		}
 	}
 }
-// deneb_feature
+// digitalofficy_feature
 .service_feature{
 	padding-bottom: 100px;
 	.feature_wrapper{
 		.single_feature{
-			.deneb_img_box{
+			.digitalofficy_img_box{
 				@media #{$md}{
 					margin-bottom: 60px;
 				}
 			}
-			.deneb_content_box{
+			.digitalofficy_content_box{
 				max-width: 548px;
 				.icon{
 					display: inline-block;
@@ -197,7 +197,7 @@
 				}
 			}
 			&:nth-child(odd){
-				.deneb_content_box{
+				.digitalofficy_content_box{
 					@media #{$md}{
 						margin-bottom: 60px;
 					}
@@ -209,7 +209,7 @@
 }
 // service_page
 .service_page{
-	.deneb_pricing{
+	.digitalofficy_pricing{
 		padding-bottom: 105px;
 	}
 }
