@@ -1,9 +1,9 @@
 @mixin transition($time) {
-	-webkit-transition: all $time ease-out 0s;
-	-moz-transition: all $time ease-out 0s;
-	-ms-transition: all $time ease-out 0s;
-	-o-transition: all $time ease-out 0s;
-	transition: all $time ease-out 0s;
+    -webkit-transition: all $time ease-out 0s;
+    -moz-transition: all $time ease-out 0s;
+    -ms-transition: all $time ease-out 0s;
+    -o-transition: all $time ease-out 0s;
+    transition: all $time ease-out 0s;
 }
 
 
@@ -16,8 +16,8 @@
 }
 @mixin transform-origin ($origin) {
     moz-transform-origin: $origin;
-	     -o-transform-origin: $origin;
-	    -ms-transform-origin: $origin;
-	-webkit-transform-origin: $origin;
+         -o-transform-origin: $origin;
+        -ms-transform-origin: $origin;
+    -webkit-transform-origin: $origin;
           transform-origin: $origin;
 }
