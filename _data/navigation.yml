@@ -1,5 +1,5 @@
 #Please use the main menu items under the "text"
-- text: About Us
+- text: A propos
   url: /about
 - text: Services
   url: /services
@@ -12,6 +12,6 @@
     url: /wordpress-hosting
   - text: 404
     url: /404
-- text: Contact Us
+- text: Contactez-nous
   url: /contact
  
