@@ -31,14 +31,14 @@
     /*---------------------- 
         Slick slider js
     ------------------------*/
-    $('.hero_slider').slick({
-        arrows: false,
-        dots: true,
-        infinite: true,
-        autoplay: true,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    });
+    // $('.hero_slider').slick({
+    //     arrows: true,
+    //     dots: true,
+    //     infinite: true,
+    //     autoplay: true,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1
+    // });
     $('.project_button button').on('click', function() {
         $('.project_button button').removeClass('active_btn');
         var filterValues = $(this).data('filter');
@@ -77,15 +77,15 @@
             }
         ]
     });
-    $('.testimonial_slide').slick({
-        arrows: false,
-        dots: true,
-        infinite: true,
-        autoplay: true,
-        slidesToShow: 1,
-        fade: true,
-        slidesToScroll: 1
-    });
+    // $('.testimonial_slide').slick({
+    //     arrows: false,
+    //     dots: true,
+    //     infinite: true,
+    //     autoplay: true,
+    //     slidesToShow: 1,
+    //     fade: true,
+    //     slidesToScroll: 1
+    // });
     /*---------------------- 
         Slick slider js
     ------------------------*/

@@ -8,7 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://digitalofficy.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-site_logo: "/assets/images/logo_1.png"
+site_logo: "/assets/images/logo-no-bg.png"
 
 permalink: "/:title"
 
@@ -20,7 +20,7 @@ plugins:
   - jekyll-archives
   - jekyll-sitemap
 
-facebook_url: "https://www.facebook.com/digitalofficy"
+linkedin_url: "https://www.linkedin.com/company/hashtack-development/"
 twitter_url: "https://twitter.com/digitalofficy"
 instagram_url: "https://instagram.com/digitalofficy"
 
@@ -34,6 +34,8 @@ site_preloader: true
 
 collections:
   services:
+    output: true
+  promises:
     output: true
 # Exclude from processing.
 # The following items will not be processed, by default.

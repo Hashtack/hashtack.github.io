@@ -1,0 +1,31 @@
+<!-- Start digitalofficy_service section -->
+<section class="digitalofficy_service service_v1">
+  <div class="shape_v2">
+      <img src="{{relative_url}}/assets/images/shape/shape_7.png" class="shape_7" alt="">
+  </div>
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12">
+              <div class="section_title text-center">
+                  <h2>What can you expect from working with us</h2>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          {% for promise in site.promises %}
+          <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="grid_item wow fadeInUp">
+                  <div class="icon">
+                      <img src="{{promise.icon}}" class="img-fluid" alt="">
+                  </div>
+                  <div class="info">
+                      <h4><a href="{{promise.url}}">{{promise.title}}</a></h4>
+                      <p>{{promise.content }}</p>
+                  </div>
+              </div>
+          </div>
+          {% endfor %}
+      </div>
+  </div>
+</section>
+<!-- End digitalofficy_service section -->

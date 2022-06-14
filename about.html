@@ -1,13 +1,17 @@
 ---
 layout: default
-page_header_image: "/assets/images/page_header.jpg"
-title: "About Me"
+title: "You should feel supported by the people you work with"
+bradcrumb_title: "About us"
 ---
 
 {% include page_header.html %}
 {% include about.html section_class="about_v2" %}
+{% comment %}
 {% include our_skills.html %}
+{% endcomment %}
 {% include our_experience.html %}
 {% include testimonials.html %}
+{% comment %}
 {% include latest_blog_posts.html %}
-{% include contact_area.html %}
+{% endcomment %}
+{% include contact_area.html h1="Build it with Hashtack" h2="Is software important to your business?" %}

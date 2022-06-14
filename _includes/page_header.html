@@ -1,14 +1,17 @@
 <!-- Start digitalofficy_breadcrumb section -->
+
 <section class="digitalofficy_breadcrumb bg_image" style="background-image: url({% if page.page_header_image %} {{page.page_header_image}} {% else %} {{site.hero_image}} {% endif %});">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="breadcrumb_content">
                     <h1>{{page.title}}</h1>
+                    {% comment %}
                     <ul class="mt-3">
                         <li><a href="{{site.url}}">Home</a></li>
-                        <li>{{page.title}}</li>
+                        <li>{%if page.bradcrumb_title%} {{page.bradcrumb_title}} {% else %} {{page.title}} {% endif %}</li>
                     </ul>
+                    {% endcomment %}
                 </div>
             </div>
         </div>
