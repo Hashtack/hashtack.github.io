@@ -1,9 +1,7 @@
-title: "Digital Officy"
-email: "digitalofficy@gmail.com"
+title: "Hashtack"
+email: "info@hashtack.dev"
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  We help you making your product and team a success.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hashtack.dev" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -21,8 +19,8 @@ plugins:
   - jekyll-sitemap
 
 linkedin_url: "https://www.linkedin.com/company/hashtack-development/"
-twitter_url: "https://twitter.com/digitalofficy"
-instagram_url: "https://instagram.com/digitalofficy"
+twitter_url: "https://twitter.com/"
+instagram_url: "https://instagram.com/"
 
 hero_image: "/assets/images/breadcrumb_bg.jpg"
 
