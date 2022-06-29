@@ -10,6 +10,7 @@
             <div class="contact_form">
                 <form method="POST" action="https://getform.io/f/d81e9c04-d6e3-40d0-8589-9ff32c7baec2">
                     <input name="_formsubmit_id" type="text" style="display:none">
+                    <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="form_group">
@@ -50,7 +51,7 @@
                         </div>
                         <div class="col-lg-12">
                             <div class="button_box">
-                                <button class="digitalofficy_btn" type="submit">Submit Now</button>
+                                <button class="digitalofficy_btn g-recaptcha" type="submit" data-sitekey="reCAPTCHA_site_key" data-callback='onSubmit' data-action='submit'>Submit now</button>
                             </div>
                         </div>
                     </div>
@@ -61,3 +62,12 @@
 </div>
 </section>
 <!-- End digitalofficy_contact section -->
+
+<script>
+    grecaptcha.ready(function() {
+        grecaptcha.execute('6LcB_58gAAAAAN5UClYSgrIWUBOVA_OHtAN0FxZT', {action: 'homepage'})
+        .then(function(token) {
+          document.getElementById('captchaResponse').value = token;
+        });
+      });
+ </script>
